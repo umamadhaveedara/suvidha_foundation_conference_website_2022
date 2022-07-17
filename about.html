@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Suvidha foundation international conference</title>
+    <!-- bootstrap CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <!-- local CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="/public/index.js"></script>
+  </head>
+
+  <body>
+    <nav>
+      <div class="logo">
+        <img
+          src="https://www.suvidhafoundationedutech.org/static/media/suvidha_foundation.c012ebd0.png"
+          alt=""
+        />
+        <h1>
+          International Conference on Emerging Trends in Computer Science, Electronics and Electrical Engineering
+      </div>
+
+      <div class="itemsContaiener">
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="committees.html">COMMITTEES</a></li>
+          <li><a href="Registration.html">RESGISTRATION</a></li>
+          <li><a href="papers.html">PAPERS</a></li>
+          <li><a href="poster.html">POSTER</a></li>
+          <li><a href="contactus.html">CONTACT US</a></li>
+        </ul>
+
+        <div class="humburger" onclick="menu()">
+          <div class="humburger-line"></div>
+          <div class="humburger-line"></div>
+          <div class="humburger-line"></div>
+        </div>
+      </div>
+    </nav>
+    <main>
+
+        <section class="shs-2">
+
+            <div class="shs-2-1">
+
+                <div class="shs-2-1-1">
+                    <h1>About Conference</h1>
+                    <p>Department of Biomedical Engineering is organizing the First International Biomedical Conference- Multidisciplinary Perspective In Healthcare during 5 - 6 Sept 2022. The conference aims to make the academic and scientific fraternity indulge in high end research and discuss on the innovative and intelligent design of Biomedical products, processes, mechanisms and other advanced systems in the field of healthcare. The conference provides opportunities to Doctors & Engineers to exchange new ideas and applications, establish research relations and to find global partners for future collaboration. The Conference will feature technical paper sessions, poster sessions, Project competition, Exhibition, panel discussion and invited talks by eminent researchers from around the world. Accepted and presented papers will be submitted for publication in journal/ Scopus Journals.</p>
+
+                    <p>It invites the articles pertaining to all multidisciplinary fields of engineering, healthcare instrumentation, medical sciences including medicine, dentistry and applied medical sciences, which provide contribution to improve the healthcare. All such articles should aim for the development of biomedical concepts rather than merely recording the facts.
+
+
+                    </p>
+                </div>
+
+            </div>
+
+            <div class="shs-2-2">
+                <h1>CONFERENCE DATES</h1>
+                <div class="shs-2-2-2">
+                    <div>EVENT</div>
+                    <div>DATES</div>
+                </div>
+                <div class="shs-2-2-3">
+                    <div>Paper/ Poster Submission Deadline</div>
+                    <div>10th july 2022 </div>
+                </div>
+                <div class="shs-2-2-3">
+                    <div>Notification For Acceptance</div>
+                    <div>05th Aug 2022 </div>
+                </div>
+                <div class="shs-2-2-3">
+                    <div>Registration And Camera Ready Submission	</div>
+                    <div>10th Aug 2022 </div>
+                </div>
+                <div class="shs-2-2-3">
+                    <div>Conference Date</div>
+                    <div>2-3 Sept 2022</div>
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <footer>
+        <p>© 2022 suvidha foundation</p>
+        <div class="footercontent">
+          <div class="content">
+            <h1>CONFERENCE DATES</h1>
+            <p>2nd & 3rd September 2022</p>
+          </div>
+          <div class="content">
+            <h1>CONTACT US</h1>
+            <p>Email: ibmec@rknec.edu</p>
+            <p>Dr J. A. Shrawankar 9503027410</p>
+            <p>Prof. J. B. Zalke 9326982837</p>
+          </div>
+          <div class="content">
+            <h1>ORGANIZED BY</h1>
+            <p>Department of Biomedical Engineering,</p>
+            <p>
+              Shri Ramdeobaba College of Engineering <br />
+              and Management, Gittikhadan, Katol <br />
+              Road, Nagpur (India)
+            </p>
+          </div>
+        </div>
+      </footer>
+  
+      <script>
+        function menu() {
+          const humbuerger = document.querySelector(".humburger");
+          const humbuergerLine = document.querySelectorAll(".humburger-line");
+  
+          humbuergerLine.forEach((element) => {
+            element.classList.toggle("menu");
+          });
+  
+          const navbar = document.querySelector(".itemsContaiener");
+          navbar.classList.toggle("itemsContaiener-menu");
+        }
+      </script>
+    </body>
+  </html>
