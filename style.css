@@ -369,6 +369,77 @@ footer p{
     margin-top: 100px;
 }
 /* contactus end */
+/* registration start */
+.image {
+    display: block;
+    width: 75%;
+    margin: auto;
+}
+
+
+.content h1 {
+    text-decoration: solid;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:large;
+    margin-top: 50px;
+    /* text-decoration: underline; */
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: center;
+ 
+}
+
+.content p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: medium;
+    margin-left: 200px;
+    margin-right: 200px;
+
+  
+
+}
+
+.rg-container {
+    display: table;
+    width: 75%;
+    border-width: 0px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.header {
+    font-weight: bold;
+    display: table-row;
+    background-color: orange;
+    border-collapse: collapse;
+
+    text-align: center;
+    line-height: 45px;
+    font-size:14px;
+    font-family: georgia ;
+    color: white;
+    margin: 200px ;
+}
+
+
+.table-row {
+    display: table-row;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+
+.col {
+    display: table-cell;
+    border-bottom: 1px solid black;
+
+}
+
+.hr {
+    background-color: aqua;
+}
+/* registration end */
 
 @media only screen and (max-width:1200px) {
     .humburger {
